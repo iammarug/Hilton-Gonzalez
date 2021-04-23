@@ -1,0 +1,642 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.6;
+    }
+
+/* header */
+nav{
+    .navbar-brand img{
+        width: 104px;
+        margin: 0 0 0 100px;
+    }
+    ul{
+        li{
+            #colorlinks {
+                color: rgb(58, 78, 142);
+                font-size: 18px;
+                margin: 0 1rem;
+                }
+            #colorlinks:hover {
+                text-decoration:underline;
+                font-weight: bolder;
+                }
+
+        }
+    }
+
+}
+main{
+    .imgprincipal{
+        position:static;
+        display: flex;
+        align-items: flex-end;
+        z-index: 1;
+    }
+    .imgprincipal img{
+        width: 1345px;
+        padding: 0;
+        border: none;
+    }
+    .imgprincipal h1{
+        text-align: left;
+        color: #fff;
+        padding: 10px 20px;
+        position:absolute;
+        margin: 1rem;
+        
+        font-weight: bolder;
+    }
+    padding-top: 22%;
+}
+    @media screen and (min-width: 320px) {
+        main{
+            padding-top: 19%;
+    }
+        .imgprincipal h1{
+            font-size: 1.3rem;
+    }
+}
+    @media screen and (min-width: 425px) {
+        main{
+            padding-top: 17%;
+    }
+        .imgprincipal h1{
+            font-size: 1.5rem;
+    }
+}
+    @media screen and (min-width: 768px) {
+        main{
+            padding-top: 9%;
+        }
+        .imgprincipal h1{
+            font-size: 2rem;
+        }
+    }
+    @media screen and (min-width: 1124px) {
+        main{
+            padding-top: 5%;
+        }
+        .imgprincipal h1{
+            font-size: 2rem;
+        }
+} 
+/* footer */
+footer{
+    background-color: rgb(16, 76, 151);
+    .col-4{
+            h2{
+                font-size: 16px;
+                margin: 20px 0;
+                color: #fff;
+                text-align: center;
+                font-weight: bolder;
+            }
+            li{
+                list-style:none;
+                text-align: center;
+                margin: 5px;
+                    }
+            p{
+                font-size: 12px;
+                margin: 20px 0;
+                text-align: center;
+                color: #fff;
+                align-items:center;
+                          
+            }
+        }
+    }
+
+/* GALERIA DE FOTOS */
+
+.galeria {
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+    h2{
+        color: #1d1d1d;
+        font-weight: bold;
+        font-size: 30px;
+     }
+    p{
+        color: #4a4a4a;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        margin: 3rem 5rem;
+    }
+    .galeria_fotos {
+        #galeriadefotos{
+            h5{
+            color: #fff;
+            font-weight:bolder;
+            font-size: 30px;
+            padding: 7px;
+            margin: 30px 0;
+            text-align: center;
+            }   
+        }
+    }
+}
+.galeria {
+    .galeria_fotos_2 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        h3{
+            grid-column: 1 / 3;
+        }
+        .galeria_fotos_2-habitacionesultimo{
+            grid-column: 1 / 3;
+            justify-self: center;
+        }
+    }
+}
+.galeria {
+    .galeria_fotos_3 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        h3{
+            grid-column: 1 / 3;
+        }
+    }
+}
+
+.galeria {
+    .galeria_fotos_4 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        margin: 30px;
+        h3{
+            grid-column: 1 / 3;
+        }
+        .galeria_fotos_4-serviciosultimo{
+            grid-column: 1 / 3;
+            justify-self: center;
+        }
+    }
+}
+
+.galeria {
+    .galeria_fotos_5 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        h3{
+            grid-column: 1 / 3;
+        }
+    }
+}
+.galeria {
+    .galeria_fotos_6 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        h3{
+            grid-column: 1 / 3;
+        }
+    }
+}
+.galeria {
+    .galeria_fotos_7 {
+        display: grid;
+        grid-template-columns: 511.5px 511.5px;
+        grid-template-rows: 100px 341px 341px 341px 341px;
+        justify-content: center;
+        gap: 5px;
+        h3{
+            grid-column: 1 / 3;
+        }
+    }
+}
+
+/* .seccion1{
+    min-height: 100vh;
+}
+.seccion1 h2{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+
+}
+.seccion1_hotel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.seccion1_hotel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.seccion1_hotel {
+    width: 40%;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+ }
+
+.seccion1_hotel iframe{
+    width: 600px;
+    height:300px;
+    }
+
+.seccion1_ubicacion-mapa iframe{
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.masinfo {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
+    grid-template-columns: 511.5px 511.5px;
+    grid-template-rows: 170px 190px 170px ;
+}
+.masinfo h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    margin: 0.5rem 3rem ;
+}
+.masinfo {
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: left;
+    margin: 0.5rem 3rem ;
+    align-self: center;
+}
+.masinfo ul{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align:left;
+    margin: 0.5rem 4rem ;
+    align-self:center;
+    list-style:circle;
+}
+.seccion1_transporte{
+    grid-row: 1 / 4;
+}
+ */
+
+
+
+/* habitaciones */
+/* .habitaciones h2{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+}
+.habitaciones p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 3rem 5rem;
+}
+
+.habitaciones_deluxe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 80px;
+        }
+.habitaciones_imagen img{
+    width: 511.5px;
+    height:341px;
+}
+.habitaciones_imagen img:hover{
+    transform: translate(10px, 20px);
+}
+.habitaciones_texto{
+    width: 50%;
+}
+.habitaciones_texto h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+.habitaciones_texto p{
+    color: #4a4a4a;
+    font-weight:bolder;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 0 3rem ;
+    align-self: center;
+}
+.habitaciones_texto ul{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 12px;
+    text-align:left;
+    margin: 0 0 0 3rem ;
+    align-self:center;
+    list-style:circle;
+}
+.habitaciones_ejecutivas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 80px;
+        }
+.habitaciones_suites{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 80px;
+} */
+
+
+/* ofertas */
+/* .ofertas h2{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+}
+.ofertas p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 3rem 5rem;
+}
+.oferta_primero h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 20px;
+    padding: 7px;
+    margin: 30px 0;
+    text-align: center;
+}
+.oferta1 {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 100px 300px;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px;
+    background-color: #FBFAF8;
+}
+.oferta1 h3{
+    grid-column: 1 / 3;
+}
+
+.oferta1 img{
+    width: 600px;
+    height: 300px;
+    
+}
+.oferta1 p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 0 3rem ;
+    align-self: center;
+}
+.oferta1 p a{
+    text-decoration: none;
+    color: rgb(16, 76, 151);
+}
+
+.oferta_segundo {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100px  154px 230px;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px;
+    background-color: #FBFAF8;
+}
+.oferta2{
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    margin: 20px;
+    
+}
+.oferta2 h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px 0;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.oferta2 img{
+    width: 389px;
+    height: 154px;
+    justify-items: center;
+    margin: 20px;
+ }
+.oferta2 p {
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    align-self: center;
+    width: 389px;
+}
+.oferta2 p a{
+    text-decoration: none;
+    color: rgb(16, 76, 151);
+}
+
+.oferta3{
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    margin: 20px;
+    
+}
+.oferta3 img{
+    width: 389px;
+    height: 154px;
+    justify-items: center;
+    margin: 20px;
+ }
+ .oferta3 h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px 0;
+    text-align: center;
+    align-items: flex-start;
+ }
+ .oferta3 p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    align-self: center;
+    width: 389px;
+
+}
+.oferta3 p a{
+    text-decoration: none;
+    color: rgb(16, 76, 151);
+} */
+/* servicios */
+/* .servicios h2{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+}
+.servicios p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 3rem 5rem;
+}
+.servicios_cuadro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.7fr 0.7fr 1fr 1fr ;
+    justify-content: center;
+    gap: 3rem;
+    align-items: flex-start;
+    margin: 3rem 10rem;
+}
+.servicios_cuadro h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.servicios_cuadro p{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 12px;
+    text-align:center;
+    margin: 10px 40px 0 40px;
+}
+.servicios_cuadro img{
+    width: 100px;
+    margin: 10px;
+}
+
+.servicios_fumadores{
+    display: grid;
+    justify-items: center; 
+}
+.servicios_restaurante{
+    display: grid;
+    justify-items: center;
+}
+.servicios_piscinas{
+    display: grid;
+    justify-items: center;
+}
+.servicios_gimnasio{
+    display: grid;
+    justify-items: center;
+}
+.servicios_negocios{
+    display: grid;
+    justify-items: center;
+}
+.servicios_llaves{
+    display: grid;
+    justify-items: center;
+}
+.servicios_concerje{
+    display: grid;
+    justify-items: center;
+}
+.servicios_playa{
+    display: grid;
+    justify-items: center;
+}
+.servicios_habitacion{
+    display: grid;
+    justify-items: center;
+}
+.servicios_eventos{
+    display: grid;
+    justify-items: center;
+}
+.servicios_pet{
+    display: grid;
+    justify-items: center;
+}
+.servicios_estacionamiento{
+    display: grid;
+    justify-items: center;
+} 
+/*  contacto  
+.container h2{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0;
+}
+
+.form-group .row input{
+    margin: 10px;
+    position: initial;
+}
+ .form-group label{
+    color: #4a4a4a;
+    margin: 10px;
+    }
+
+.custom-select{
+    margin: 10px;
+    color: #4a4a4a;
+}
+.form-group .row textarea{
+    margin: 10px;
+}
+.form-group .row button{
+    margin: 10px;
+}
+*/
+
