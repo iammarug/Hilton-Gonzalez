@@ -351,6 +351,100 @@ footer{
         }
     }
 }
+/* SERVICIOS */
+.servicios{ 
+    h2{
+        color: #1d1d1d;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        padding: 7px;
+        margin: 30px 0;
+    }
+    p{
+        color: #4a4a4a;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        margin: 3rem 5rem;
+    }
+    .servicios_cuadro{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.7fr 0.7fr 1fr 1fr ;
+        justify-content: center;
+        gap: 3rem;
+        align-items: flex-start;
+        margin: 3rem 10rem;
+        h3{
+            color: rgb(16, 76, 151);
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            margin: 0 0 10px 0;
+        }
+        p{
+            color: #4a4a4a;
+            font-weight: normal;
+            font-size: 12px;
+            text-align:center;
+            margin: 10px 40px 0 40px;
+        }
+        img{
+            width: 100px;
+            margin: 10px;
+        }
+    }
+}
+
+.servicios_fumadores{
+    display: grid;
+    justify-items: center; 
+}
+.servicios_restaurante{
+    display: grid;
+    justify-items: center;
+}
+.servicios_piscinas{
+    display: grid;
+    justify-items: center;
+}
+.servicios_gimnasio{
+    display: grid;
+    justify-items: center;
+}
+.servicios_negocios{
+    display: grid;
+    justify-items: center;
+}
+.servicios_llaves{
+    display: grid;
+    justify-items: center;
+}
+.servicios_concerje{
+    display: grid;
+    justify-items: center;
+}
+.servicios_playa{
+    display: grid;
+    justify-items: center;
+}
+.servicios_habitacion{
+    display: grid;
+    justify-items: center;
+}
+.servicios_eventos{
+    display: grid;
+    justify-items: center;
+}
+.servicios_pet{
+    display: grid;
+    justify-items: center;
+}
+.servicios_estacionamiento{
+    display: grid;
+    justify-items: center;
+} 
 
 /* ofertas */
 /* .ofertas h2{
@@ -489,98 +583,7 @@ footer{
     text-decoration: none;
     color: rgb(16, 76, 151);
 } */
-/* servicios */
-/* .servicios h2{
-    color: #1d1d1d;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    padding: 7px;
-    margin: 30px 0;
-}
-.servicios p{
-    color: #4a4a4a;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
-    margin: 3rem 5rem;
-}
-.servicios_cuadro{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.7fr 0.7fr 1fr 1fr ;
-    justify-content: center;
-    gap: 3rem;
-    align-items: flex-start;
-    margin: 3rem 10rem;
-}
-.servicios_cuadro h3{
-    color: rgb(16, 76, 151);
-    font-weight: normal;
-    font-size: 18px;
-    text-align: center;
-    margin: 0 0 10px 0;
-}
-.servicios_cuadro p{
-    color: #4a4a4a;
-    font-weight: normal;
-    font-size: 12px;
-    text-align:center;
-    margin: 10px 40px 0 40px;
-}
-.servicios_cuadro img{
-    width: 100px;
-    margin: 10px;
-}
 
-.servicios_fumadores{
-    display: grid;
-    justify-items: center; 
-}
-.servicios_restaurante{
-    display: grid;
-    justify-items: center;
-}
-.servicios_piscinas{
-    display: grid;
-    justify-items: center;
-}
-.servicios_gimnasio{
-    display: grid;
-    justify-items: center;
-}
-.servicios_negocios{
-    display: grid;
-    justify-items: center;
-}
-.servicios_llaves{
-    display: grid;
-    justify-items: center;
-}
-.servicios_concerje{
-    display: grid;
-    justify-items: center;
-}
-.servicios_playa{
-    display: grid;
-    justify-items: center;
-}
-.servicios_habitacion{
-    display: grid;
-    justify-items: center;
-}
-.servicios_eventos{
-    display: grid;
-    justify-items: center;
-}
-.servicios_pet{
-    display: grid;
-    justify-items: center;
-}
-.servicios_estacionamiento{
-    display: grid;
-    justify-items: center;
-} 
 /*  contacto  
 .container h2{
     color: #1d1d1d;
