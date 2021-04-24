@@ -11,13 +11,12 @@ nav .navbar-brand img {
   margin: 0 0 0 100px; }
 
 nav ul li #colorlinks {
-  color: #3a4e8e;
+  color: black;
   font-size: 18px;
   margin: 0 1rem; }
 
 nav ul li #colorlinks:hover {
-  text-decoration: underline;
-  font-weight: bolder; }
+  color: #3a4e8e; }
 
 main {
   padding-top: 22%; }
