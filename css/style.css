@@ -84,35 +84,30 @@ footer {
 /* HOME */
 .seccion1 {
   min-height: 100vh; }
-
-.seccion1 h2 {
-  color: #1d1d1d;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 7px;
-  margin: 30px 0; }
-
-.seccion1_hotel {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.seccion1_hotel .seccion1_hotel-texto {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.seccion1_hotel .seccion1_hotel-texto p {
-  width: 40%;
-  color: #4a4a4a;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center; }
-
-.seccion1_hotel .seccion1_hotel-texto iframe {
-  width: 600px;
-  height: 300px; }
+  .seccion1 h2 {
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0; }
+  .seccion1 .seccion1_hotel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .seccion1 .seccion1_hotel-texto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .seccion1 .seccion1_hotel-texto p {
+      width: 40%;
+      color: #4a4a4a;
+      font-weight: normal;
+      font-size: 16px;
+      text-align: center; }
+    .seccion1 .seccion1_hotel-texto iframe {
+      width: 600px;
+      height: 300px; }
 
 .seccion1_ubicacion-mapa iframe {
   width: 100%;
@@ -127,32 +122,28 @@ footer {
   margin: 80px;
   grid-template-columns: 511.5px 511.5px;
   grid-template-rows: 170px 190px 170px; }
-
-.masinfo h3 {
-  color: #104c97;
-  font-weight: normal;
-  font-size: 18px;
-  text-align: left;
-  margin: 0.5rem 3rem; }
-
-.masinfo p {
-  color: #4a4a4a;
-  font-size: 14px;
-  text-align: left;
-  margin: 0.5rem 3rem;
-  align-self: center; }
-
-.masinfo ul {
-  color: #4a4a4a;
-  font-weight: normal;
-  font-size: 14px;
-  text-align: left;
-  margin: 0.5rem 4rem;
-  align-self: center;
-  list-style: circle; }
-
-.seccion1_transporte {
-  grid-row: 1 / 4; }
+  .masinfo h3 {
+    color: #104c97;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    margin: 0.5rem 3rem; }
+  .masinfo p {
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: left;
+    margin: 0.5rem 3rem;
+    align-self: center; }
+  .masinfo ul {
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    margin: 0.5rem 4rem;
+    align-self: center;
+    list-style: circle; }
+  .masinfo .seccion1_transporte {
+    grid-row: 1 / 4; }
 
 /* GALERIA DE FOTOS */
 .galeria {
