@@ -155,7 +155,40 @@ footer{
     display: block;
     margin: 0 auto;
 }
-
+.masinfo {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px;
+    grid-template-columns: 511.5px 511.5px;
+    grid-template-rows: 170px 190px 170px ;
+}
+.masinfo h3{
+    color: rgb(16, 76, 151);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    margin: 0.5rem 3rem ;
+}
+.masinfo p{
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: left;
+    margin: 0.5rem 3rem ;
+    align-self: center;
+}
+.masinfo ul{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 14px;
+    text-align:left;
+    margin: 0.5rem 4rem ;
+    align-self:center;
+    list-style:circle;
+}
+.seccion1_transporte{
+    grid-row: 1 / 4;
+}
 /* GALERIA DE FOTOS */
 .galeria {
     text-align: center;
