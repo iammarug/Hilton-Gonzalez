@@ -181,6 +181,46 @@ footer{
         grid-row: 1 / 4;
     }
 }
+/* HABITACIONES */
+.habitaciones {
+    h2{
+        color: #1d1d1d;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        padding: 7px;
+        margin: 30px 0;
+    }
+    p{
+        color: #4a4a4a;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        margin: 3rem 5rem;
+    }
+}
+.card-group{
+    h5{
+        color: rgb(16, 76, 151);
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    p{
+        color: #4a4a4a;
+        font-size: 14px;
+        text-align: left;
+        margin: 0;
+    }
+    ul{
+        color: #4a4a4a;
+        font-weight: normal;
+        font-size: 12px;
+        text-align:left;
+    }
+}
+
 /* GALERIA DE FOTOS */
 .galeria {
     text-align: center;
@@ -292,81 +332,6 @@ footer{
         }
     }
 }
-
-
-
-
-
-/* habitaciones */
-/* .habitaciones h2{
-    color: #1d1d1d;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    padding: 7px;
-    margin: 30px 0;
-}
-.habitaciones p{
-    color: #4a4a4a;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: center;
-    margin: 3rem 5rem;
-}
-
-.habitaciones_deluxe{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 80px;
-        }
-.habitaciones_imagen img{
-    width: 511.5px;
-    height:341px;
-}
-.habitaciones_imagen img:hover{
-    transform: translate(10px, 20px);
-}
-.habitaciones_texto{
-    width: 50%;
-}
-.habitaciones_texto h3{
-    color: rgb(16, 76, 151);
-    font-weight: normal;
-    font-size: 18px;
-    padding: 0 0 10px 0;
-    text-align: center;
-}
-.habitaciones_texto p{
-    color: #4a4a4a;
-    font-weight:bolder;
-    font-size: 14px;
-    text-align: center;
-    margin: 0 0 0 3rem ;
-    align-self: center;
-}
-.habitaciones_texto ul{
-    color: #4a4a4a;
-    font-weight: normal;
-    font-size: 12px;
-    text-align:left;
-    margin: 0 0 0 3rem ;
-    align-self:center;
-    list-style:circle;
-}
-.habitaciones_ejecutivas{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 80px;
-        }
-.habitaciones_suites{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 80px;
-} */
-
 
 /* ofertas */
 /* .ofertas h2{
