@@ -205,7 +205,9 @@ footer {
     text-align: center; }
   .galeria .galeria_fotos img {
     width: 511.5px;
-    height: 341px; }
+    /* operaciones */
+    height: 341px;
+    /* operaciones  */ }
   .galeria .galeria_fotos .galeria_fotos_1 {
     display: grid;
     grid-template-columns: 511.5px 511.5px;

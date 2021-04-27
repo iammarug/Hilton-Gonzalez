@@ -251,13 +251,13 @@ $alto:682px;
         text-align: center;
         }
         img{
-            width: $ancho/2;
-            height:$alto/2;
+            width: $ancho/2; /* operaciones */
+            height:$alto/2; /* operaciones  */
         }
         .galeria_fotos_1 {
             display: grid;
-            grid-template-columns: 511.5px 511.5px;
-            grid-template-rows: 100px 341px 341px 341px 341px;
+            grid-template-columns: $ancho/2 $ancho/2;
+            grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
             justify-content: center;
             gap: 5px;
             h3{
@@ -274,8 +274,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_2 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         h3{
@@ -290,8 +290,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_3 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         h3{
@@ -303,8 +303,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_4 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         margin: 30px;
@@ -321,8 +321,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_5 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         h3{
@@ -333,8 +333,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_6 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         h3{
@@ -345,8 +345,8 @@ $alto:682px;
 .galeria {
     .galeria_fotos_7 {
         display: grid;
-        grid-template-columns: 511.5px 511.5px;
-        grid-template-rows: 100px 341px 341px 341px 341px;
+        grid-template-columns: $ancho/2 $ancho/2;
+        grid-template-rows: 100px $alto/2 $alto/2 $alto/2 $alto/2;
         justify-content: center;
         gap: 5px;
         h3{
