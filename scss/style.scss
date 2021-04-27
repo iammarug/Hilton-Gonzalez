@@ -222,6 +222,9 @@ footer{
 }
 
 /* GALERIA DE FOTOS */
+/* operaciones */
+$ancho:1023px;
+$alto:682px;
 .galeria {
     text-align: center;
     padding: 7px;
@@ -248,8 +251,8 @@ footer{
         text-align: center;
         }
         img{
-            width: 511.5px;
-            height:341px;
+            width: $ancho/2;
+            height:$alto/2;
         }
         .galeria_fotos_1 {
             display: grid;
